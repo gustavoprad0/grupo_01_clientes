@@ -1,0 +1,37 @@
+{
+  "name": "vvs-grupo01-clientes",
+  "version": "1.0.0",
+  "description": "API de clientes (Node.js + Express + MySQL) — trabalho de Verificação e Validação de Software, grupo 01",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "db:reset": "node scripts/reset-db.js",
+    "verificar": "node scripts/verificar-entrega.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-junit": "^16.0.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 5000,
+    "collectCoverageFrom": ["src/service.js", "src/app.js"],
+    "coverageReporters": ["text", "html"],
+    "reporters": [
+      "default",
+      ["jest-junit", { "outputDirectory": "reports", "outputName": "junit.xml" }]
+    ]
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

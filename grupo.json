@@ -1,0 +1,42 @@
+{
+  "grupo": 1,
+  "dominio": "clientes",
+  "instrucoes": "Cada integrante preenche os PRÓPRIOS dados (nome, ra, github, emails usados nos commits) no seu primeiro commit, na sua posição. O integrante 1 é o líder. Grupos menores apagam os integrantes que sobrarem, mantendo a numeração 1, 2, 3...",
+  "integrantes": [
+    {
+      "integrante": 1,
+      "nome": "",
+      "ra": "",
+      "github": "",
+      "emails": []
+    },
+    {
+      "integrante": 2,
+      "nome": "",
+      "ra": "",
+      "github": "",
+      "emails": []
+    },
+    {
+      "integrante": 3,
+      "nome": "",
+      "ra": "",
+      "github": "",
+      "emails": []
+    },
+    {
+      "integrante": 4,
+      "nome": "",
+      "ra": "",
+      "github": "",
+      "emails": []
+    },
+    {
+      "integrante": 5,
+      "nome": "",
+      "ra": "",
+      "github": "",
+      "emails": []
+    }
+  ]
+}

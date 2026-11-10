@@ -1,0 +1,19 @@
+# Alternativa ao MySQL instalado na máquina: docker compose up -d
+name: vvs-grupo01-clientes
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: bd_clientes-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: bd_clientes
+      MYSQL_USER: aluno_unifio
+      MYSQL_PASSWORD: abc123
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
