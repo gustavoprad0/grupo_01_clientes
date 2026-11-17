@@ -5,38 +5,24 @@
   "integrantes": [
     {
       "integrante": 1,
-      "nome": "",
-      "ra": "",
-      "github": "",
-      "emails": []
+      "nome": "Gustavo Prado de Oliveira",
+      "ra": "268333",
+      "github": "https://github.com/gustavoprad0",
+      "emails": ["268333@unifio.edu.br", "gustavopradoriol@gmail.com"]
     },
     {
       "integrante": 2,
-      "nome": "",
-      "ra": "",
-      "github": "",
-      "emails": []
+      "nome": "Gustavo de Carvalho Fernandes",
+      "ra": "272389",
+      "github": "https://github.com/GusCfer",
+      "emails": ["272389@unifio.edu.br", "gustavocarvalhofernandes@gmail.com"]
     },
     {
       "integrante": 3,
-      "nome": "",
-      "ra": "",
-      "github": "",
-      "emails": []
-    },
-    {
-      "integrante": 4,
-      "nome": "",
-      "ra": "",
-      "github": "",
-      "emails": []
-    },
-    {
-      "integrante": 5,
-      "nome": "",
-      "ra": "",
-      "github": "",
-      "emails": []
+      "nome": "Vitório Augusto da Silva Barreto",
+      "ra": "270582",
+      "github": "https://github.com/VitorioBarreto",
+      "emails": ["270582@unifio.edu.br", "vitorio.augusto.silva@gmail.com"]
     }
   ]
 }
