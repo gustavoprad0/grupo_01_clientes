@@ -1,7 +1,7 @@
 // Distribui os cenários entre os integrantes: cada aluno recebe 5 cenários, em rodízio pela ordem de grupo.json.
 // 5 integrantes -> CT01..CT25 | 4 -> CT01..CT20 | 3 -> CT01..CT15 | 2 -> CT01..CT10 | 1 -> CT01..CT05
-const TOTAL_CTS = 25;
-const POR_ALUNO = 5;
+const TOTAL_CTS = 15;
+const POR_ALUNO = 3;
 const TODOS_CTS = Array.from({ length: TOTAL_CTS }, (_, i) => `CT${String(i + 1).padStart(2, '0')}`);
 
 function distribuirCTs(qtdIntegrantes) {
